@@ -1,0 +1,12 @@
+# test 1 m 
+quiver: 15         random-seed: 123456
+max-rand-distance: 40
+max-rand-speed: 10
+max-rand-health: 1
+---
+round: 3
+random-zombies: 5
+named-zombies: 3
+darden    distance: 20  speed: 10  health: 3
+paoletti  distance: 30  speed: 10  health: 5
+garcia    distance: 40  speed: 15  health: 4

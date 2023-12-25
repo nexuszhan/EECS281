@@ -1,0 +1,26 @@
+#test-2 tests error checking
+CREATE check 2 string bool error pass
+CREATE error 2 bool int pass x
+# ...
+REMOVE unknown
+INSERT INTO check 2 rows
+ab true
+io false
+INSERT INTO cerr 7 rows
+CREATE error 2 string double xy mn
+PRINT FROM unknown 1 error ALL
+PRINT FROM check 2 pas cerr WHERE cerr = 1
+PRINT FROM check 2 pass error WHERE pas = true
+DELETE FROM error WHERE error = 0
+DELETE FROM checking WHERE pass = true
+GENERATE FOR cerr bst INDEX ON x
+GENERATE FOR check hash INDEX ON cerr
+GENERATE FOR unknown bst INDEX ON unknown
+JOIN checking AND cerr WHERE pass = pas AND PRINT 1 error 1
+JOIN check AND error WHERE ass = pass AND PRINT 1 error 2
+JOIN check AND error WHERE pass = pass AND PRINT 1 y 2
+JOIN check AND error WHERE pass = pass AND PRINT 3 ass 1 y 2 cerr 2
+UNKNOWN COMMAND
+# end ...
+QUIT
+PRINT FROM check 2 error pass ALL

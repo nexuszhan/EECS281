@@ -1,0 +1,21 @@
+# test 0 s 
+quiver: 15         random-seed: 123456
+max-rand-distance: 40
+max-rand-speed: 10
+max-rand-health: 1
+---
+r 1
+random-zombies: 15
+named-zombies: 3
+
+Mark distance: 150 speed: 30 health: 10
+Mary distance: 2 speed: 3 health: 6
+mart distance: 100 speed: 1 health: 100
+---
+round: 3
+random-zombies: 5
+named 3
+
+Mart distance: 20 speed: 10 health: 20
+mary  distance: 10  speed: 2      health: 4
+mark     d 5    v  1   hp 3

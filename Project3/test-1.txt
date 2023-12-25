@@ -1,0 +1,35 @@
+#test-1 .txt
+CREATE sexy 4 string double int bool ta tb tc td
+PRINT FROM sexy 4 ta tb tc td ALL
+GENERATE FOR sexy bst INDEX ON tc
+INSERT INTO sexy 4 rows
+ab 1.5 1 true
+cd 2.5 2 false
+ef 3.5 3 false
+ab 1.5 1 true
+JOIN sexy AND sexy WHERE ta = ta AND PRINT 2 tb 1 td 2
+INSERT INTO sexy 2 rows
+xy 9.5 10 true
+ab 1.5 4 true
+DELETE FROM sexy WHERE ta < cd
+INSERT INTO sexy 4 rows
+ab 1.5 1 true
+yz 10.5 8 false
+cd 3.9 7 true
+ij 0.1 9 true
+PRINT FROM sexy 3 ta tb ta WHERE td < true
+GENERATE FOR sexy bst INDEX ON tb
+INSERT INTO sexy 2 rows
+xy 9.5 10 true
+wt 0.9 9 false
+DELETE FROM sexy WHERE tb = 9.5
+INSERT INTO sexy 2 rows
+io 9.8 10 true
+oi 9.8 1 true
+PRINT FROM sexy 3 tc ta td WHERE tb > 4
+DELETE FROM sexy WHERE td > false
+DELETE FROM sexy WHERE td = false
+JOIN sexy AND sexy WHERE td = td AND PRINT 2 ta 2 ta 1
+CREATE test  3 string string string a b c
+JOIN sexy AND test WHERE ta = a AND PRINT 2 b 2 c 2
+QUIT

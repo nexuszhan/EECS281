@@ -1,0 +1,18 @@
+# test 2 v 
+quiver: 10         random-seed: 234561
+max-rand-distance: 40
+max-rand-speed: 10
+max-rand-health: 1
+---
+r 1
+rndzbs 5
+named  2
+dard   d   10   v   2    hp 1
+PAO    d   5    v   3    hp  1
+---
+round: 3
+random-zombies: 5
+named-zombies: 3
+darden    distance: 20  speed: 10  health: 1
+paoletti  distance: 30  speed: 10  health: 1
+garcia    distance: 40  speed: 15  health: 1
